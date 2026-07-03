@@ -15,6 +15,12 @@ from spdx_python_model.bindings import v3_0_1 as b
 
 p: v3_0_1.Person = v3_0_1.Person()
 q: b.Person = b.Person()
+
+from spdx_python_model import v3_1
+from spdx_python_model.bindings import v3_1 as b1
+
+r: v3_1.Person = v3_1.Person()
+s: b1.Person = b1.Person()
 """
 
 

@@ -17,6 +17,11 @@ DATA_DIR = Path(__file__).parent / "data"
             "3.0.1",
             id="3.0.1",
         ),
+        pytest.param(
+            DATA_DIR / "3.1" / "example.spdx3.json",
+            "3.1",
+            id="3.1",
+        ),
     ],
 )
 def test_load(datapath, version):
